@@ -11,7 +11,6 @@ end
 def take_a_number(katz_deli, number)
   new_line = ["Ada", "Grace", "Kent"]
   new_line.each_with_index do |person, number|
-    real_number = number +1
-    puts "Welcome, #{person}. You are number #{real_number} in line."
+    puts "Welcome, #{person}. You are number #{number} in line."
   end
 end

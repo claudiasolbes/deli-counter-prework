@@ -9,7 +9,8 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, new_customer)
-  new_line.each_with_index do |person, number|
+  position = katz_deli
+  katz_deli.each_with_index do |person, number|
     puts "Welcome, #{person}. You are number #{number+1} in line."
   end
 end

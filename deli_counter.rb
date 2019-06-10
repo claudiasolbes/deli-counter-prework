@@ -18,7 +18,7 @@ def take_a_number(katz_deli, new_customer)
 end
 
 def now_serving(katz_deli, new_customer)
-  katz_deli.pop do |new_customer|
+  katz_deli.shift
   if katz_deli == []
    puts "There is nobody waiting to be served!"
   else

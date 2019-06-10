@@ -8,8 +8,7 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, number)
-  new_line = ["Ada", "Grace", "Kent"]
+def take_a_number(katz_deli, new_customer)
   new_line.each_with_index do |person, number|
     puts "Welcome, #{person}. You are number #{number+1} in line."
   end

@@ -22,6 +22,6 @@ def now_serving(katz_deli, new_customer)
   if katz_deli == []
    puts "There is nobody waiting to be served!"
   else
-    puts "Next in line #{customer}"
+    puts "Next in line #{katz_deli}"
   end
 end

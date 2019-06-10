@@ -10,6 +10,7 @@ end
 
 def take_a_number(katz_deli, new_customer)
   katz_deli << new_customer
-  position = katz_deli.length
-  puts "Welcome, #{new_customer}. You are number #{position} in line."
+  katz_deli.each_with_index do |person, number|
+    if person == new_customer
+      puts "Welcome, #{person}. You are number #{number + 1} in line."
 end

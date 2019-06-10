@@ -13,4 +13,6 @@ def take_a_number(katz_deli, new_customer)
   katz_deli.each_with_index do |person, number|
     if person == new_customer
       puts "Welcome, #{person}. You are number #{number + 1} in line."
+    end
+  end
 end

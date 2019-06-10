@@ -17,8 +17,10 @@ def take_a_number(katz_deli, new_customer)
   end
 end
 
-def now_serving(katz_deli)
-  
-  if 
-  puts 
+def now_serving(katz_deli, new_customer)
+  katz_deli.pop new_customer
+  if katz_deli !== []
+   puts "Next in line"
+  else
+    puts 
 end

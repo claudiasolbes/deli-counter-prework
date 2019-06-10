@@ -19,10 +19,9 @@ end
 
 def now_serving(katz_deli, new_customer)
   katz_deli.pop new_customer
-  if katz_deli !== []
-   puts "Next in line"
+  if katz_deli == []
+   puts "There is nobody waiting to be served!"
   else
-    puts "There is nobody waiting to be served!"
-  end
+    puts "Next in line"
   end
 end
